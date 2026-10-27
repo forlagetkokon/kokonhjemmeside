@@ -1,0 +1,551 @@
+/* Farver, typografi, kanter, skygger og interaktionstilstande. */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");
+
+/* ---------- Farver og skrifttyper ---------- */
+
+:root {
+  color-scheme: light;
+  --color-bg: #f3ebdd;
+  --color-surface: #fff9f0;
+  --color-text: #2b302d;
+  --color-muted: #6e6a63;
+  --color-green: #40594d;
+  --color-accent: #8e3e32;
+  --color-button: #8e3e32;
+  --color-border: #b9b3a9;
+  --color-footer: #2b302d;
+  --color-footer-text: #fff9f0;
+  --color-focus: #155eef;
+  --font-ui: "Manrope", Arial, sans-serif;
+  --font-reading: "Source Serif 4", Georgia, serif;
+  --content: 75rem;
+  --narrow: 47rem;
+  --page-gutter: 1.5rem;
+  --section-space: 2.5rem;
+  --shadow-card: 0 0.25rem 1rem rgb(43 48 45 / 0.08);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #171c19;
+  --color-surface: #242a26;
+  --color-text: #f7f0e5;
+  --color-muted: #d8d1c5;
+  --color-green: #a8c5b3;
+  --color-accent: #d97e6c;
+  --color-button: #a64c3e;
+  --color-border: #707a73;
+  --color-footer: #111512;
+  --color-footer-text: #f7f0e5;
+  --color-focus: #8bb4ff;
+  --shadow-card: 0 0.25rem 1rem rgb(0 0 0 / 0.25);
+}
+
+/* ---------- Grundtypografi ---------- */
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-reading);
+  scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-underline-offset: 0.25em;
+}
+button {
+  font: inherit;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+h1,
+h2,
+h3 {
+  color: var(--color-text);
+  font-family: var(--font-ui);
+  text-wrap: balance;
+}
+h1 {
+  font-size: clamp(2.5rem, 10vw, 4.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+h2 {
+  font-size: clamp(1.75rem, 7vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.21;
+  letter-spacing: -0.018em;
+}
+h3 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.27;
+  letter-spacing: -0.01em;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.625;
+}
+:focus-visible {
+  outline: 0.1875rem solid var(--color-focus);
+  outline-offset: 0.25rem;
+}
+
+/* ---------- Navigation og sidehoved ---------- */
+
+.spring-over-link {
+  background: var(--color-text);
+  color: var(--color-bg);
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+.sidehoved-baggrund {
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+[data-theme="dark"] .logo-symbol img {
+  filter: brightness(0) invert(1);
+}
+.logo-navn {
+  font-family: var(--font-ui);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.menu-knap {
+  border: 0;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.menu-knap span {
+  background: currentColor;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+.menu-knap[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(0.4375rem) rotate(45deg);
+}
+.menu-knap[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+.menu-knap[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-0.4375rem) rotate(-45deg);
+}
+.hovednavigation {
+  background: var(--color-surface);
+}
+.navigationslinks a {
+  border-bottom: 1px solid var(--color-border);
+  font-family: var(--font-ui);
+  font-size: 1.375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+.navigationslinks a[aria-current="page"] {
+  color: var(--color-accent);
+}
+.tema-kontrol {
+  font-family: var(--font-ui);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.tema-knap {
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+}
+.tema-knap::after {
+  content: "";
+  border-radius: 50%;
+  background: currentColor;
+  transition: transform 0.2s ease;
+}
+[data-theme="dark"] .tema-knap::after {
+  transform: translateX(1.0625rem);
+}
+
+/* ---------- Flader, tekst og knapper ---------- */
+
+.flade-sektion {
+  background: var(--color-surface);
+}
+.groen-sektion {
+  background: #40594d;
+  color: #fff9f0;
+}
+[data-theme="dark"] .groen-sektion {
+  background: #2d4338;
+}
+.groen-sektion h1,
+.groen-sektion h2,
+.groen-sektion h3,
+.groen-sektion p,
+.groen-sektion a {
+  color: inherit;
+}
+.groen-sektion .overlinje {
+  color: #f3ebdd;
+}
+.overlinje {
+  color: var(--color-green);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.indledning {
+  font-size: 1.125rem;
+  line-height: 1.61;
+}
+.knap {
+  border: 1px solid var(--color-button);
+  border-radius: 0.125rem;
+  background: var(--color-button);
+  color: #fff9f0;
+  font-family: var(--font-ui);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.18s ease;
+}
+.knap:hover {
+  filter: brightness(0.92);
+}
+.knap.paa-moerk {
+  border-color: #fff9f0;
+  background: transparent;
+  color: #fff9f0;
+}
+.knap[aria-disabled="true"],
+.knap:disabled {
+  opacity: 0.58;
+  cursor: not-allowed;
+  filter: none;
+}
+.tekstlink,
+.tilbage-link {
+  color: var(--color-accent);
+  font-family: var(--font-ui);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.tekstlink {
+  text-decoration: none;
+}
+/* Kun teksten understreges; pilen er et separat span og får derfor ingen streg. */
+.tekstlink-tekst {
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+}
+.tilbage-link {
+  text-decoration: none;
+}
+.tilbage-link-tekst {
+  border-bottom: 0.08em solid currentColor;
+}
+
+/* ---------- Forside ---------- */
+
+.hero-billede,
+.fremhaevet-billede {
+  border-radius: 0.125rem;
+  background: var(--color-surface);
+}
+.fremhaevet-billede {
+  background: var(--color-bg);
+}
+.hero-billede::after {
+  content: "";
+  background: linear-gradient(180deg, transparent 70%, rgb(43 48 45 / 0.12));
+  pointer-events: none;
+}
+.portal-punkt {
+  border-top: 1px solid currentColor;
+}
+.portal-nummer {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+/* ---------- Udgivelser ---------- */
+
+.bogkort {
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+.bogkort > a {
+  text-decoration: none;
+}
+.bogforside-ramme {
+  background: #e8e3d6;
+}
+.bogforside-ramme img {
+  transition: transform 0.3s ease;
+}
+.bogkort:hover .bogforside-ramme img {
+  transform: scale(1.018);
+}
+.bogforfatter {
+  color: var(--color-muted);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+}
+
+/* ---------- Udgivelsesdetalje ---------- */
+
+.detalje-forside img {
+  background: var(--color-surface);
+}
+.detalje-meta {
+  color: var(--color-muted);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+}
+.detalje-handling {
+  border-top: 1px solid var(--color-border);
+}
+.detalje-handling h2 {
+  font-size: 1.375rem;
+  line-height: 1.27;
+}
+.detalje-handling p {
+  font-size: 1.125rem;
+  line-height: 1.61;
+}
+.indholdssektion {
+  border-top: 1px solid var(--color-border);
+}
+.indholdssektion:first-child {
+  border-top: 0;
+}
+.detalje-galleri img {
+  background: var(--color-bg);
+}
+.billedforstoerrelse {
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+.karusel-pil {
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+  color: var(--color-text);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 2rem;
+  line-height: 1;
+  opacity: 0.92;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease,
+    opacity 0.18s ease;
+}
+.karusel-pil:hover {
+  background: var(--color-button);
+  color: #fff9f0;
+}
+.karusel-prik {
+  display: grid;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  place-items: center;
+}
+/* Den synlige prik er lille, men knappen omkring den er stor nok til touch. */
+.karusel-prik::before {
+  width: 0.625rem;
+  height: 0.625rem;
+  content: "";
+  border: 1px solid var(--color-muted);
+  border-radius: 50%;
+  background: transparent;
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease;
+}
+.karusel-prik[aria-current="true"]::before {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+}
+.bogfakta dt {
+  color: var(--color-muted);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.bogfakta dd {
+  line-height: 1.5;
+}
+/* ---------- Kontakt ---------- */
+
+.kontaktkort {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.statusbesked {
+  border-left: 0.25rem solid var(--color-accent);
+  background: var(--color-surface);
+}
+
+/* ---------- Sidefod og billeddialog ---------- */
+
+.sidefod-baggrund {
+  background: var(--color-footer);
+  color: var(--color-footer-text);
+}
+.sidefod-logo {
+  color: inherit;
+  font-family: var(--font-ui);
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.sidefod-linje {
+  height: 1px;
+  background: #77736c;
+}
+.sidefod-navigation a {
+  font-family: var(--font-ui);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+.sociale-links a {
+  border: 1px solid #c7c7c7;
+  color: var(--color-footer-text);
+  text-decoration: none;
+  transition:
+    border-color 0.18s ease,
+    transform 0.18s ease;
+}
+.sidefod-note {
+  color: #f3ebdd;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+.sidefod-tema {
+  color: var(--color-footer-text);
+}
+.sidefod-tema .tema-knap {
+  border-color: currentColor;
+  background: transparent;
+  color: inherit;
+}
+
+.billeddialog {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+.billeddialog::backdrop {
+  background: rgb(0 0 0 / 0.68);
+}
+.billeddialog-luk {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 2rem;
+  line-height: 1;
+  place-items: center;
+}
+
+.billeddialog .karusel-pil {
+  opacity: 0.96;
+}
+/* ---------- Hover ---------- */
+
+@media (hover: hover) {
+  .navigationslinks a:hover {
+    color: var(--color-accent);
+  }
+  .sidefod-navigation a:hover {
+    color: #f3ebdd;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+  }
+  .sociale-links a:hover {
+    border-color: #fff;
+    transform: translateY(-0.125rem);
+  }
+  .karusel-pil {
+    opacity: 0;
+  }
+  .karusel-visning:hover .karusel-pil,
+  .karusel-visning:focus-within .karusel-pil {
+    opacity: 0.96;
+  }
+}
+
+/* ---------- Desktop ---------- */
+
+@media (min-width: 64rem) {
+  :root {
+    --page-gutter: 2rem;
+    --section-space: 5rem;
+  }
+  .logo-navn {
+    font-size: 1.25rem;
+  }
+  .hovednavigation {
+    background: transparent;
+  }
+  .navigationslinks a {
+    border: 0;
+    font-size: 0.9375rem;
+  }
+  .navigationslinks a[aria-current="page"] {
+    box-shadow: inset 0 -0.125rem var(--color-accent);
+    color: var(--color-text);
+  }
+}
+
+/* ---------- Reduceret bevægelse ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

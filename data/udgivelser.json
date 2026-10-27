@@ -1,0 +1,186 @@
+{
+  "udgivelser": [
+    {
+      "slug": "flaskepost-fra-helvede",
+      "synlig": true,
+      "sortering": 1,
+      "fremhaevet": true,
+      "titel": "Flaskepost fra Helvede",
+      "forfatter": "Kyūsaku Yumeno",
+      "kort_beskrivelse": "Et søskendepar lever isoleret på en øde ø, indtil deres lukkede verden møder virkeligheden udenfor.",
+      "beskrivelse": "Et søskendepar tilbringer ti år på en øde ø med ganske få ejendele og en lille bibel. Fortællingen følger deres isolation og den verden, de opbygger langt fra andre mennesker.\n\nØens interne regler og orden bryder gradvist sammen i mødet med omverdenen. Novellen undersøger menneskets psyke og de begrænsninger, som langvarig isolation kan skabe.",
+      "forfatter_beskrivelse": "Sugiyama Taidō (1889–1936) valgte Yumeno Kyūsaku som forfatternavn. På den lokale dialekt i Fukuoka betød navnet en ubesindig dagdrømmer.\n\nHan skilte sig holdningsmæssigt ud fra mange samtidige forfattere. I 1960’erne blev hans eksperimenterende fortællinger og interesse for mysterier, psykologi og lukkede rum genopdaget. Før sin debut som 37-årig arbejdede han blandt andet i hæren, som bonde, daglejer, zenmunk og journalist.",
+      "oversaetter": "Steffen Kloster Poulsen",
+      "format_og_materialer": "Omslagsgrafik af Hakkiri og omslagsillustration af Klaus Tue Madsen.",
+      "isbn": null,
+      "sidetal": null,
+      "format_bind": "Hæftet",
+      "sprog": "Dansk",
+      "dansk_udgivelsesaar": null,
+      "originaludgivelsesaar": "1928",
+      "originaltitel": "Binzume No Jigoku [瓶詰の地獄]",
+      "forside": {
+        "sti": "/assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-front.webp",
+        "alt": "Forsiden af Flaskepost fra Helvede"
+      },
+      "galleri": [
+        {
+          "sti": "/assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-author-page.webp",
+          "alt": "Blå forfatterplanche med portræt og introduktion til Yumeno Kyūsaku fotograferet blandt grønne planter"
+        },
+        {
+          "sti": "/assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-back.webp",
+          "alt": "Bagsiden af Flaskepost fra Helvede placeret blandt grønne blade"
+        }
+      ]
+    },
+    {
+      "slug": "uegnet-som-menneske",
+      "synlig": true,
+      "sortering": 2,
+      "fremhaevet": false,
+      "titel": "Uegnet som menneske",
+      "forfatter": "Osamu Dazai",
+      "kort_beskrivelse": "Ōba Yōzō skjuler sin fremmedgjorthed og angst bag humor og påtagede roller.",
+      "beskrivelse": "Ōba Yōzō har siden barndommen følt sig fremmed over for andre mennesker. For at skjule sin angst spiller han komiske roller og forsøger at tilpasse sig de forventninger, han møder.\n\nSom voksen fører hans flugt gennem rusmidler, mislykkede forhold og skyldfølelse ham længere væk fra omverdenen. Romanen skildrer med mørk humor den fortvivlelse, der gemmer sig bag hans smil.",
+      "forfatter_beskrivelse": "Osamu Dazai (1909–1948) regnes blandt de mest indflydelsesrige moderne japanske forfattere. Hans tekster kombinerer menneskelig indsigt og mørk humor, og Uegnet som menneske blev hans sidste færdiggjorte roman.",
+      "oversaetter": "Mads Schanz",
+      "format_og_materialer": "Omslagsgrafik af Hakkiri. Offsettrykt på Munken Premium Cream 100 g/m².",
+      "isbn": "9788797404423",
+      "sidetal": 112,
+      "format_bind": "Indbundet",
+      "sprog": "Dansk",
+      "dansk_udgivelsesaar": 2025,
+      "originaludgivelsesaar": "1948",
+      "originaltitel": "Ningen Shikkaku [人間失格]",
+      "forside": {
+        "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-front.webp",
+        "alt": "Forsiden af Uegnet som menneske"
+      },
+      "galleri": [
+        {
+          "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-two-covers.webp",
+          "alt": "To udgaver af Uegnet som menneske opstillet på en træflade"
+        },
+        {
+          "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-open-book.webp",
+          "alt": "En åben udgave af Uegnet som menneske holdt foran en strand og blå himmel"
+        },
+        {
+          "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-author-page.webp",
+          "alt": "Forfattersiden om Osamu Dazai fotograferet ved siden af bogens mørke omslag"
+        }
+      ]
+    },
+    {
+      "slug": "ti-naetters-droemme",
+      "synlig": true,
+      "sortering": 3,
+      "fremhaevet": false,
+      "titel": "Ti nætters drømme",
+      "forfatter": "Natsume Sōseki",
+      "kort_beskrivelse": "Ti poetiske drømme kredser om kærlighed, død, skæbne og tidens forgængelighed.",
+      "beskrivelse": "Samlingen består af ti korte, poetiske fortællinger, der hver tager form som en drøm. Fortællingerne bevæger sig mellem genkendelige situationer og billeder, som følger drømmens egen logik.\n\nPå tværs af de ti nætter undersøger Natsume Sōseki blandt andet kærlighed, død, skæbne og tidens forgængelighed.",
+      "forfatter_beskrivelse": "Natsume Sōseki (1867–1916) er en central skikkelse i japansk litteratur. Hans romaner og noveller kombinerer ofte japanske traditioner med vestlige litterære strømninger.\n\nHan fik sit store gennembrud i 1905–1906 med føljetonen Vi er en kat, som udkom i det litterære tidsskrift Hototogisu.",
+      "oversaetter": "Steffen Kloster Poulsen",
+      "format_og_materialer": "Mørkeblåt Geltex-omslag med kobber-orange prægning. Omslagsgrafik af Hakkiri og illustration af Emma Hvidbak Grouleff.",
+      "isbn": "9788797404416",
+      "sidetal": 88,
+      "format_bind": "Indbundet",
+      "sprog": "Dansk",
+      "dansk_udgivelsesaar": null,
+      "originaludgivelsesaar": "1908",
+      "originaltitel": "Yumejūya [夢十夜]",
+      "forside": {
+        "sti": "/assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-front.webp",
+        "alt": "Forsiden af Ti nætters drømme"
+      },
+      "galleri": [
+        {
+          "sti": "/assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-illustration.webp",
+          "alt": "En illustreret side fra tredje nat i Ti nætters drømme"
+        },
+        {
+          "sti": "/assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-back.webp",
+          "alt": "Bagsiden af Ti nætters drømme med orange tekst på mørkt omslag"
+        }
+      ]
+    },
+    {
+      "slug": "citronen",
+      "synlig": true,
+      "sortering": 4,
+      "fremhaevet": false,
+      "titel": "Citronen",
+      "forfatter": "Motojirō Kajii",
+      "kort_beskrivelse": "En kølig citron giver et kort øjebliks lettelse under en melankolsk vandring gennem Kyoto.",
+      "beskrivelse": "En melankolsk fortæller med alvorlig lungesygdom vandrer gennem Kyotos gader på jagt efter det livsmod, han har mistet. En kølig citron fra en frugthandler giver for en stund ro i både krop og sind.\n\nDa han senere træder ind i sin tidligere yndlingsbutik, Maruzen, ændres stemningen igen. Novellen undersøger identitet, sindstilstand og mødet mellem Østasien og Vesten.",
+      "forfatter_beskrivelse": "Motojirō Kajii (1901–1932) var en japansk forfatter fra Osaka. Han skrev tyve poetiske og intellektuelle noveller. Citronen var hans første og er fortsat hans bedst kendte fortælling.",
+      "oversaetter": "Steffen Kloster Poulsen",
+      "format_og_materialer": "Omslagsgrafik og omslagsillustration af Hakkiri.",
+      "isbn": null,
+      "sidetal": null,
+      "format_bind": "Hæftet",
+      "sprog": "Dansk",
+      "dansk_udgivelsesaar": 2024,
+      "originaludgivelsesaar": "1925",
+      "originaltitel": "Remon [檸檬]",
+      "forside": {
+        "sti": "/assets/images/udgivelser/citronen/citronen-front.webp",
+        "alt": "Forsiden af Citronen"
+      },
+      "galleri": [
+        {
+          "sti": "/assets/images/udgivelser/citronen/citronen-on-wool.webp",
+          "alt": "Citronen liggende i lyst uld"
+        },
+        {
+          "sti": "/assets/images/udgivelser/citronen/citronen-back.webp",
+          "alt": "Bagsiden af Citronen liggende i lyst uld"
+        },
+        {
+          "sti": "/assets/images/udgivelser/citronen/citronen-inside-page.webp",
+          "alt": "En åben side fra Citronen med dansk brødtekst og sidenummer fem"
+        }
+      ]
+    },
+    {
+      "slug": "vi-er-en-kat-del-1",
+      "synlig": true,
+      "sortering": 5,
+      "fremhaevet": false,
+      "titel": "Vi er en kat · Del 1",
+      "forfatter": "Natsume Sōseki",
+      "kort_beskrivelse": "En navnløs og selvhøjtidelig kat betragter menneskenes forfængelighed og sære vaner.",
+      "beskrivelse": "En navnløs kat bor hos en skolelærer i Tokyo i begyndelsen af 1900-tallet. Fra sin særlige plads i huset betragter den menneskene omkring sig med en selvsikker og satirisk stemme.\n\nKatten kommenterer blandt andet menneskenes dovenskab, forfængelighed og tomme tale. Første del åbner dermed Sōsekis humoristiske blik på både hverdagslivet og det moderne japanske samfund.",
+      "forfatter_beskrivelse": "Natsume Sōseki (1867–1916) er en central skikkelse i japansk litteratur. Hans romaner kombinerer ofte japanske traditioner med vestlige litterære strømninger.\n\nHan fik sit store gennembrud i 1905–1906 med føljetonen Vi er en kat. Det japanske wagahai i titlen er et gammeldags og selvhøjtideligt førstepersonspronomen; på dansk er det gengivet med det majestætiske “vi”.",
+      "oversaetter": "Nicolai Lerche",
+      "format_og_materialer": "Omslagsgrafik af Hakkiri og omslagsillustration af Emma Hvidbak Grouleff.",
+      "isbn": "9788797404461",
+      "sidetal": 32,
+      "format_bind": "Paperback",
+      "sprog": "Dansk",
+      "dansk_udgivelsesaar": 2025,
+      "originaludgivelsesaar": "1905–1906",
+      "originaltitel": "Wagahai Wa Neko De Aru [吾輩は猫である]",
+      "forside": {
+        "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-front.webp",
+        "alt": "Forsiden af Vi er en kat, del 1"
+      },
+      "galleri": [
+        {
+          "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-on-blue-fabric.webp",
+          "alt": "Vi er en kat, del 1 liggende på blåt tekstil"
+        },
+        {
+          "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-back.webp",
+          "alt": "Bagsiden af Vi er en kat, del 1 med et uddrag fra bogen"
+        },
+        {
+          "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-author-page.webp",
+          "alt": "Rosa forfatterplanche med portræt og introduktion til Natsume Sōseki lagt på et mønstret tekstil"
+        }
+      ]
+    }
+  ]
+}

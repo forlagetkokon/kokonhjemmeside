@@ -1,0 +1,754 @@
+/*-------------------------------*/
+/* ---------- Globale ---------- */
+/*-------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body.menu-aaben {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p,
+figure {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  max-width: 68ch;
+  margin-bottom: 1rem;
+}
+
+/* --------------------------------------------- */
+/* ---------- Navigation og sidehoved ---------- */
+/* --------------------------------------------- */
+
+.spring-over-link {
+  position: fixed;
+  z-index: 200;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.75rem 1rem;
+  transform: translateY(-160%);
+}
+
+.spring-over-link:focus {
+  transform: none;
+}
+
+.sidehoved-baggrund {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sidehoved {
+  display: grid;
+  grid-template-columns: 2.75rem 1fr 2.75rem;
+  align-items: center;
+  width: min(100%, var(--content));
+  min-height: 4.25rem;
+  margin-inline: auto;
+  padding-inline: var(--page-gutter);
+}
+.logo-symbol {
+  display: flex;
+  width: 1.8125rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-symbol img {
+  max-height: 100%;
+}
+
+.logo-navn {
+  justify-self: center;
+}
+
+.menu-knap {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  place-content: center;
+  gap: 0.3125rem;
+}
+
+.menu-knap span {
+  width: 1.375rem;
+  height: 0.125rem;
+}
+
+.hovednavigation {
+  position: fixed;
+  z-index: 90;
+  inset: 4.25rem 0 0;
+  display: none;
+  align-content: start;
+  padding: 2.5rem var(--page-gutter);
+}
+
+.hovednavigation[data-open] {
+  display: grid;
+}
+
+.navigationslinks {
+  display: grid;
+}
+
+.navigationslinks a {
+  min-height: 3.75rem;
+  padding-block: 1rem;
+}
+
+.sidehoved-handlinger {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tema-kontrol {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.tema-knap {
+  position: relative;
+  width: 2.75rem;
+  height: 1.625rem;
+  padding: 0.1875rem;
+}
+
+.tema-knap::after {
+  display: block;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+/* ---------------------------------------- */
+/* ---------- Fælles sideindhold ---------- */
+/* ---------------------------------------- */
+
+main {
+  min-height: 60vh;
+}
+.sektion {
+  padding: var(--section-space) var(--page-gutter);
+}
+
+.sektion-indhold {
+  width: min(100%, var(--content));
+  margin-inline: auto;
+}
+
+.sektion-indhold.smal {
+  width: min(100%, var(--narrow));
+}
+
+.lodret-indhold > *:last-child {
+  margin-bottom: 0;
+}
+
+.overlinje {
+  margin-bottom: 1.25rem;
+}
+
+.indledning {
+  margin-bottom: 1.5rem;
+}
+
+.mobiltekst {
+  display: inline;
+}
+
+.desktoptekst {
+  display: none;
+}
+
+.knap {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+}
+
+.tekstlink,
+.tilbage-link {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+/* ----------------------------- */
+/* ---------- Forside ---------- */
+/* ----------------------------- */
+
+.forside-hero {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-tekst .knap {
+  width: 100%;
+}
+
+.hero-billede {
+  position: relative;
+  min-height: 25rem;
+  overflow: hidden;
+}
+
+.hero-billede img {
+  width: 100%;
+  height: 100%;
+  min-height: 25rem;
+  object-fit: cover;
+}
+
+.hero-billede::after {
+  position: absolute;
+  inset: 0;
+}
+
+.fremhaevet-layout,
+.delt-layout,
+.detalje-hero {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.fremhaevet-billede {
+  overflow: hidden;
+}
+
+.fremhaevet-billede img {
+  width: 100%;
+  max-height: 38rem;
+  object-fit: cover;
+}
+
+.portal-gitter,
+.vaerdi-gitter {
+  display: grid;
+  gap: 2rem;
+}
+
+.portal-punkt {
+  padding-top: 1.25rem;
+}
+
+/* ---------------------------------------- */
+/* ---------- Udgivelsesoversigt ---------- */
+/* ---------------------------------------- */
+.sideintro {
+  padding-bottom: 2rem;
+}
+
+.sideintro p:last-child {
+  margin-bottom: 0;
+}
+
+.bog-gitter {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.bogkort {
+  overflow: hidden;
+}
+
+.bogkort > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bogforside-ramme {
+  aspect-ratio: 342 / 428;
+  overflow: hidden;
+}
+
+.bogforside-ramme img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bogkort-indhold {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.bogkort .overlinje {
+  margin-bottom: 0.75rem;
+}
+
+.bogkort h2,
+.bogkort h3 {
+  margin-bottom: 0.375rem;
+}
+
+.bogforfatter {
+  margin-bottom: 0.75rem;
+}
+
+.bogbeskrivelse {
+  margin-bottom: 1rem;
+}
+
+.bogkort .tekstlink {
+  margin-top: auto;
+  min-height: auto;
+}
+
+.katalog-afslutning {
+  max-width: 43rem;
+}
+
+/* --------------------------------------- */
+/* ---------- Udgivelsesdetalje ---------- */
+/* --------------------------------------- */
+
+.detaljeside {
+  padding-top: 1.5rem;
+}
+.detalje-hero {
+  padding-top: 1.5rem;
+}
+
+.detalje-forside {
+  min-width: 0;
+}
+
+.detalje-meta {
+  margin-bottom: 0.75rem;
+}
+
+.detalje-handling {
+  margin-top: 0.75rem;
+  padding-top: 1.25rem;
+}
+
+.detalje-handling h2 {
+  margin-bottom: 0.75rem;
+}
+
+.detalje-handling p:last-child {
+  margin-bottom: 0;
+}
+
+.detalje-indhold {
+  width: min(100%, var(--narrow));
+}
+
+.indholdssektion {
+  padding-block: var(--section-space);
+}
+
+.detalje-galleri {
+  display: grid;
+}
+
+.detalje-galleri figure {
+  width: min(100%, 44rem);
+  margin: 0 auto;
+}
+
+.detalje-galleri img {
+  width: 100%;
+}
+
+.billedforstoerrelse {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.karusel-visning {
+  position: relative;
+}
+
+.detalje-galleri.er-karusel {
+  display: grid;
+  grid-auto-columns: 100%;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scrollbar-width: none;
+}
+
+.detalje-galleri.er-karusel::-webkit-scrollbar {
+  display: none;
+}
+
+.detalje-galleri.er-karusel figure {
+  display: grid;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  overflow: hidden;
+  place-items: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.detalje-galleri.er-karusel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.detalje-galleri.er-karusel .billedforstoerrelse {
+  height: 100%;
+}
+
+.karusel-pil {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  place-items: center;
+  transform: translateY(-50%);
+}
+
+.karusel-pil.forrige {
+  left: 0.75rem;
+}
+.karusel-pil.naeste {
+  right: 0.75rem;
+}
+.karusel-prikker {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-top: 1rem;
+}
+.bogfakta {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+}
+.bogfakta > div {
+  min-width: 0;
+}
+.bogfakta dt {
+  margin-bottom: 0.25rem;
+}
+.bogfakta dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+/* ------------------- */
+/* ----- Kontakt ----- */
+/* ------------------- */
+
+.statusbesked {
+  padding: 1.25rem;
+}
+.kontaktkort {
+  padding: 1.5rem;
+}
+.indlaesningsfelt {
+  grid-column: 1 / -1;
+}
+/* ----------------------------- */
+/* ---------- Sidefod ---------- */
+/* ----------------------------- */
+
+.sidefod {
+  display: grid;
+  gap: 1.25rem;
+  width: min(100%, var(--content));
+  margin-inline: auto;
+  padding: 2rem var(--page-gutter) 1.75rem;
+}
+.sidefod-links-raekke {
+  display: grid;
+  /* Tekstkolonnen må krympe, så sociale ikoner ikke gør footeren bredere end skærmen. */
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: start;
+}
+.sidefod-navigation {
+  display: grid;
+}
+.sidefod-navigation a {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+}
+.sociale-links,
+.sociale-handlinger {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.sociale-links a {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+}
+.sociale-links img,
+.socialt-ikon {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+.sociale-handlinger {
+  margin-top: 0.5rem;
+}
+.sociale-handlinger .knap {
+  gap: 0.625rem;
+}
+.sidefod-bund {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sidefod-note {
+  margin: 0;
+}
+
+/* ----------------------------- */
+/* -------- Billeddialog ------- */
+/* ----------------------------- */
+
+.billeddialog {
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  width: min(92vw, 72rem);
+  height: min(90dvh, 50rem);
+  max-height: none;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.billeddialog[open] {
+  display: grid;
+}
+
+.billeddialog-hoved {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.billeddialog-hoved .overlinje {
+  margin: 0;
+}
+
+.billeddialog h2 {
+  margin-top: 0.5rem;
+}
+
+.billeddialog-visning {
+  position: relative;
+  min-height: 0;
+}
+
+.billeddialog img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.billeddialog-prikker {
+  margin-top: 0.75rem;
+}
+
+/* ----------------------------- */
+/* ---------- Tablet ---------- */
+/* ----------------------------- */
+
+@media (min-width: 42rem) {
+  /* minmax(0, 1fr) fordeler pladsen ligeligt. 0 lader kolonnen blive mindre, hvis billede eller tekst ellers ville skabe vandret overflow. */
+  .bog-gitter {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .portal-gitter,
+  .vaerdi-gitter {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .bogfakta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ----------------------------- */
+/* ---------- Desktop ---------- */
+/* ----------------------------- */
+
+@media (min-width: 64rem) {
+  .billeddialog {
+    width: calc(100vw - 6rem);
+    height: calc(100dvh - 6rem);
+  }
+
+  .sidehoved {
+    display: flex;
+    min-height: 6rem;
+    gap: 2.5rem;
+  }
+
+  .logo-symbol {
+    width: 2.25rem;
+    height: 3.25rem;
+  }
+
+  .logo-navn {
+    margin-right: auto;
+  }
+
+  .menu-knap {
+    display: none;
+  }
+
+  .hovednavigation {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .navigationslinks {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .navigationslinks a {
+    min-height: auto;
+    padding: 0.75rem 0;
+  }
+  .sidehoved-handlinger {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0;
+  }
+
+  .mobiltekst {
+    display: none;
+  }
+
+  .desktoptekst {
+    display: inline;
+  }
+
+  .forside-hero {
+    /* 0 lader gridkolonner krympe uden vandret overflow. */
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    min-height: 38rem;
+    gap: 5rem;
+  }
+
+  .hero-tekst {
+    max-width: 35rem;
+  }
+
+  .hero-tekst .knap {
+    width: auto;
+  }
+
+  .hero-billede,
+  .hero-billede img {
+    min-height: 34rem;
+  }
+
+  .fremhaevet-layout,
+  .delt-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6rem;
+  }
+
+  .fremhaevet-layout.omvendt > :first-child,
+  .delt-layout.omvendt > :first-child {
+    order: 2;
+  }
+
+  .bog-gitter {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem 1.5rem;
+  }
+
+  .detaljeside {
+    padding-top: 2.5rem;
+  }
+
+  .detalje-hero {
+    grid-template-columns: minmax(22rem, 0.82fr) minmax(0, 1.18fr);
+    gap: 6rem;
+    padding-top: 2.5rem;
+  }
+
+  .detalje-indhold {
+    margin-inline: auto;
+  }
+
+  .sidefod {
+    grid-template-columns: 1fr 1.5fr auto;
+    gap: 2.5rem;
+    padding-block: 2.5rem;
+  }
+
+  .sidefod-linje {
+    display: none;
+  }
+
+  .sidefod-navigation {
+    grid-template-columns: repeat(3, auto);
+    align-content: start;
+    column-gap: 2rem;
+  }
+
+  .sidefod-links-raekke {
+    gap: 1.5rem;
+  }
+
+  .sidefod-bund {
+    align-self: start;
+    justify-content: flex-end;
+  }
+}
