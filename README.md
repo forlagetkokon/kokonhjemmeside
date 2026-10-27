@@ -1,7 +1,7 @@
 ## Guide - hvordan siden virker 
 
 Hvis du skal tilføje eller ændre en bog, kan du gøre det således:
-1. Upload eller slet ønskede webp billeder til `assets/images/udgivelser/BOG-SLUG/`.
+1. Upload eller slet ønskede webp billeder under stien `assets/images/udgivelser/BOG-SLUG/`.
 2. Åbn `data/udgivelser.json`, kopiér et eksisterende bog-objekt og ret indholdet.
      
 ### Felter
