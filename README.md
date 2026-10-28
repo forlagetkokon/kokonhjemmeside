@@ -15,8 +15,7 @@ Hvis du skal tilføje eller ændre en bog, kan du gøre det således:
 - `forfatter_beskrivelse`: Er valgfri og vises kun, når den har tekst.
 Bogfakta som ISBN og sidetal vises som “Afventer oplysninger”, når værdien mangler eller er `null`.
 
-### Vigtigt, når JSON-filen redigeres
+### Vigtigt når JSON-filen redigeres
 - Brug dobbelte citationstegn omkring tekst.
 - Sæt komma mellem felter og bog-objekter, men aldrig efter den sidste.
-- Skriv en præcis alt-tekst til hvert billede.
-- Kør kontrollen nedenfor før upload.
+- Skriv alt-tekst til hvert billede.
