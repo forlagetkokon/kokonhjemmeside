@@ -29,7 +29,7 @@ async function visFremhaevetUdgivelse() {
           <h2>${beskytHtml(udgivelse.titel)}</h2>
           <p class="bogforfatter">${beskytHtml(udgivelse.forfatter)}</p>
           <p class="indledning">${beskytHtml(udgivelse.kort_beskrivelse)}</p>
-          <a class="knap" href="/udgivelse.html?slug=${encodeURIComponent(udgivelse.slug)}">Læs om udgivelsen</a>
+          <a class="knap" href="./udgivelse.html?slug=${encodeURIComponent(udgivelse.slug)}">Læs om udgivelsen</a>
         </div>
       </div>`;
   } catch (error) {

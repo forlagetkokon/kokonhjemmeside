@@ -66,7 +66,7 @@ function lavBogfakta(udgivelse) {
 function lavDetaljeGalleri(forside, galleri, titel) {
   const seteStier = new Set();
   const gyldigeBilleder = [forside, ...(Array.isArray(galleri) ? galleri : [])].filter((billede) => {
-    if (!billede?.sti?.startsWith("/assets/images/") || !billede.alt || seteStier.has(billede.sti)) return false;
+    if (!billede?.sti?.startsWith("./assets/images/") || !billede.alt || seteStier.has(billede.sti)) return false;
     seteStier.add(billede.sti);
     return true;
   });
@@ -316,7 +316,7 @@ function visUdgivelse(udgivelse, relateredeUdgivelser) {
   udgivelsesfelt.innerHTML = `
     <section class="sektion">
       <div class="sektion-indhold">
-        <a class="tilbage-link" href="/udgivelser.html"><span aria-hidden="true">←</span><span class="tilbage-link-tekst">Tilbage til udgivelser</span></a>
+        <a class="tilbage-link" href="./udgivelser.html"><span aria-hidden="true">←</span><span class="tilbage-link-tekst">Tilbage til udgivelser</span></a>
         <article class="detalje-hero">
           ${billedGalleri}
           <div class="lodret-indhold">

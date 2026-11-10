@@ -20,16 +20,16 @@
       "originaludgivelsesaar": "1928",
       "originaltitel": "Binzume No Jigoku [瓶詰の地獄]",
       "forside": {
-        "sti": "/assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-front.webp",
+        "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-front.webp",
         "alt": "Forsiden af Flaskepost fra Helvede"
       },
       "galleri": [
         {
-          "sti": "/assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-author-page.webp",
+          "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-author-page.webp",
           "alt": "Blå forfatterplanche med portræt og introduktion til Yumeno Kyūsaku fotograferet blandt grønne planter"
         },
         {
-          "sti": "/assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-back.webp",
+          "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-back.webp",
           "alt": "Bagsiden af Flaskepost fra Helvede placeret blandt grønne blade"
         }
       ]
@@ -54,20 +54,20 @@
       "originaludgivelsesaar": "1948",
       "originaltitel": "Ningen Shikkaku [人間失格]",
       "forside": {
-        "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-front.webp",
+        "sti": "./assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-front.webp",
         "alt": "Forsiden af Uegnet som menneske"
       },
       "galleri": [
         {
-          "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-two-covers.webp",
+          "sti": "./assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-two-covers.webp",
           "alt": "To udgaver af Uegnet som menneske opstillet på en træflade"
         },
         {
-          "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-open-book.webp",
+          "sti": "./assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-open-book.webp",
           "alt": "En åben udgave af Uegnet som menneske holdt foran en strand og blå himmel"
         },
         {
-          "sti": "/assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-author-page.webp",
+          "sti": "./assets/images/udgivelser/uegnet-som-menneske/uegnet-som-menneske-author-page.webp",
           "alt": "Forfattersiden om Osamu Dazai fotograferet ved siden af bogens mørke omslag"
         }
       ]
@@ -92,16 +92,16 @@
       "originaludgivelsesaar": "1908",
       "originaltitel": "Yumejūya [夢十夜]",
       "forside": {
-        "sti": "/assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-front.webp",
+        "sti": "./assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-front.webp",
         "alt": "Forsiden af Ti nætters drømme"
       },
       "galleri": [
         {
-          "sti": "/assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-illustration.webp",
+          "sti": "./assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-illustration.webp",
           "alt": "En illustreret side fra tredje nat i Ti nætters drømme"
         },
         {
-          "sti": "/assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-back.webp",
+          "sti": "./assets/images/udgivelser/ti-naetters-droemme/ti-naetters-droemme-back.webp",
           "alt": "Bagsiden af Ti nætters drømme med orange tekst på mørkt omslag"
         }
       ]
@@ -126,20 +126,20 @@
       "originaludgivelsesaar": "1925",
       "originaltitel": "Remon [檸檬]",
       "forside": {
-        "sti": "/assets/images/udgivelser/citronen/citronen-front.webp",
+        "sti": "./assets/images/udgivelser/citronen/citronen-front.webp",
         "alt": "Forsiden af Citronen"
       },
       "galleri": [
         {
-          "sti": "/assets/images/udgivelser/citronen/citronen-on-wool.webp",
+          "sti": "./assets/images/udgivelser/citronen/citronen-on-wool.webp",
           "alt": "Citronen liggende i lyst uld"
         },
         {
-          "sti": "/assets/images/udgivelser/citronen/citronen-back.webp",
+          "sti": "./assets/images/udgivelser/citronen/citronen-back.webp",
           "alt": "Bagsiden af Citronen liggende i lyst uld"
         },
         {
-          "sti": "/assets/images/udgivelser/citronen/citronen-inside-page.webp",
+          "sti": "./assets/images/udgivelser/citronen/citronen-inside-page.webp",
           "alt": "En åben side fra Citronen med dansk brødtekst og sidenummer fem"
         }
       ]
@@ -164,20 +164,20 @@
       "originaludgivelsesaar": "1905–1906",
       "originaltitel": "Wagahai wa neko de aru [吾輩は猫である]",
       "forside": {
-        "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-front.webp",
+        "sti": "./assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-front.webp",
         "alt": "Forsiden af Vi er en kat, del 1"
       },
       "galleri": [
         {
-          "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-on-blue-fabric.webp",
+          "sti": "./assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-on-blue-fabric.webp",
           "alt": "Vi er en kat, del 1 liggende på blåt tekstil"
         },
         {
-          "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-back.webp",
+          "sti": "./assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-back.webp",
           "alt": "Bagsiden af Vi er en kat, del 1 med et uddrag fra bogen"
         },
         {
-          "sti": "/assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-author-page.webp",
+          "sti": "./assets/images/udgivelser/vi-er-en-kat-del-1/vi-er-en-kat-del-1-author-page.webp",
           "alt": "Rosa forfatterplanche med portræt og introduktion til Natsume Sōseki lagt på et mønstret tekstil"
         }
       ]

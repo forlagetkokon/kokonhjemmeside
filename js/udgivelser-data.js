@@ -1,6 +1,6 @@
 // Henter bogdata fra den lokale JSON-fil, så nye udgivelser ikke kræver ændringer i JavaScript.
 
-const dataSti = "/data/udgivelser.json";
+const dataSti = "./data/udgivelser.json";
 
 // Brug JSON-filens valgte rækkefølge. `sortering` gør det muligt at flytte en bog uden at flytte hele objektet.
 function sorterUdgivelser(foerste, anden) {
