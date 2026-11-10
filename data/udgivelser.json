@@ -1,10 +1,44 @@
 {
   "udgivelser": [
     {
-      "slug": "flaskepost-fra-helvede",
+      "slug": "atlas-over-farvesammensaetninger",
       "synlig": true,
       "sortering": 1,
       "fremhaevet": true,
+      "titel": "Atlas over farvesammensætninger",
+      "forfatter": "Wada Sanzo",
+      "kort_beskrivelse": "Et ikoniske farvekombinationsværk.",
+      "beskrivelse": "Det ikoniske farvekombinationsværk Haishoku sokan (1933–35) er med sine 420 farvesammensætninger af 171 farvenuancer, udvalgt og komponeret af den japanske farvepioner Wada Sanzo (1883–1967), et overflødighedshorn af inspiration. I denne første danske udgave er samtlige farver udstyret med hver sit danske, japanske og engelske navn samt LAB- og CMYK-koder. Dertil kommer et nyt forord, sprogkulturelle og historiske noter til farvenavnene samt oversættelser af Wadas egne overvejelser om farvernes harmoni og væsen.",
+      "forfatter_beskrivelse": "Wada Sanzō var en japansk kunstner, tekstildesigner og farvepioner, der grundlagde det Japanske Institut for Farveforskning.",
+      "oversaetter": "Steffen Kloster Poulsen",
+      "format_og_materialer": "Omslagsillustration af Wada Sanzo, ABN & Hakkiri. Formgivning og sats af Hakkiri.",
+      "isbn": null,
+      "sidetal": 400,
+      "format_bind": "Halvbind med indigofarvet bogbinderlærred og bronzefolie på ryggen",
+      "sprog": "Dansk",
+      "dansk_udgivelsesaar": 2026,
+      "originaludgivelsesaar": "1933-35",
+      "originaltitel": "Haishoku sokan [配色總鑑]",
+      "forside": {
+        "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-forside.webp",
+        "alt": "Forsiden af Atlas over farvesammensætninger"
+      },
+      "galleri": [
+        {
+          "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-author-page.webp",
+          "alt": "Blå forfatterplanche med portræt og introduktion til Yumeno Kyūsaku fotograferet blandt grønne planter"
+        },
+        {
+          "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-back.webp",
+          "alt": "Bagsiden af Flaskepost fra Helvede placeret blandt grønne blade"
+        }
+      ]
+    },
+    {
+      "slug": "flaskepost-fra-helvede",
+      "synlig": true,
+      "sortering": 2,
+      "fremhaevet": false,
       "titel": "Flaskepost fra Helvede",
       "forfatter": "Kyūsaku Yumeno",
       "kort_beskrivelse": "Et søskendepar strander på en øde ø, hvor de lever i overflod, men alting har en ende.",
@@ -37,7 +71,7 @@
     {
       "slug": "uegnet-som-menneske",
       "synlig": true,
-      "sortering": 2,
+      "sortering": 3,
       "fremhaevet": false,
       "titel": "Uegnet som menneske",
       "forfatter": "Osamu Dazai",
@@ -75,7 +109,7 @@
     {
       "slug": "ti-naetters-droemme",
       "synlig": true,
-      "sortering": 3,
+      "sortering": 4,
       "fremhaevet": false,
       "titel": "Ti nætters drømme",
       "forfatter": "Natsume Sōseki",
@@ -109,7 +143,7 @@
     {
       "slug": "citronen",
       "synlig": true,
-      "sortering": 4,
+      "sortering": 5,
       "fremhaevet": false,
       "titel": "Citronen",
       "forfatter": "Motojirō Kajii",
@@ -147,7 +181,7 @@
     {
       "slug": "vi-er-en-kat-del-1",
       "synlig": true,
-      "sortering": 5,
+      "sortering": 6,
       "fremhaevet": false,
       "titel": "Vi er en kat · Del 1",
       "forfatter": "Natsume Sōseki",
