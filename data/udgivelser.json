@@ -11,6 +11,7 @@
       "beskrivelse": "Det ikoniske farvekombinationsværk Haishoku sokan (1933–35) er med sine 420 farvesammensætninger af 171 farvenuancer, udvalgt og komponeret af den japanske farvepioner Wada Sanzo (1883–1967), et overflødighedshorn af inspiration. I denne første danske udgave er samtlige farver udstyret med hver sit danske, japanske og engelske navn samt LAB- og CMYK-koder. Dertil kommer et nyt forord, sprogkulturelle og historiske noter til farvenavnene samt oversættelser af Wadas egne overvejelser om farvernes harmoni og væsen.",
       "forfatter_beskrivelse": "Wada Sanzō var en japansk kunstner, tekstildesigner og farvepioner, der grundlagde det Japanske Institut for Farveforskning.",
       "oversaetter": "Steffen Kloster Poulsen",
+      "Forord og danske farvenavne": "Maria Kirk Mikkelsen",
       "format_og_materialer": "Omslagsillustration af Wada Sanzo, ABN & Hakkiri. Formgivning og sats af Hakkiri.",
       "isbn": null,
       "sidetal": 400,
@@ -25,12 +26,28 @@
       },
       "galleri": [
         {
-          "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-author-page.webp",
-          "alt": "Blå forfatterplanche med portræt og introduktion til Yumeno Kyūsaku fotograferet blandt grønne planter"
+          "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-4kombi.webp",
+          "alt": "Opslag fra Atlas over farvesammensætninger med kombinationer af fire farver"
         },
         {
-          "sti": "./assets/images/udgivelser/flaskepost-fra-helvede/flaskepost-fra-helvede-back.webp",
-          "alt": "Bagsiden af Flaskepost fra Helvede placeret blandt grønne blade"
+          "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-ryg.webp",
+          "alt": "Ryggen på Atlas over farvesammensætninger"
+        },
+        {
+          "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-noter.webp",
+          "alt": "Opslag i noterne i oversigten over farver i Atlas over farvesammensætninger"
+        },
+        {
+          "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-detalje.webp",
+          "alt": "Detaljer af kapilærbånd, for- og bagsatspapir samt indholdspapirer i Atlas over farvesammensætninger"
+        },
+        {
+          "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-B-samling.webp",
+          "alt": "Opslag fra Atlas over farvesammensætninger B-samlingen"
+        },
+        {
+          "sti": "./assets/images/udgivelser/atlas-over-farvesammensaetninger/AOF-indhold.webp",
+          "alt": "Indholdsfortegnelsens første side i Atlas over farvesammensætninger"
         }
       ]
     },
