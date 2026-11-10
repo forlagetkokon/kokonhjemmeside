@@ -268,7 +268,7 @@ function startBilleddialog() {
 
 function lavRelateretBogkort(udgivelse) {
   const forside = udgivelse.forside ?? {};
-  const url = `/udgivelse.html?slug=${encodeURIComponent(udgivelse.slug)}`;
+  const url = `./udgivelse.html?slug=${encodeURIComponent(udgivelse.slug)}`;
 
   return `<article class="bogkort">
     <a href="${url}">

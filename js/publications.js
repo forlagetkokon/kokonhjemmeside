@@ -11,7 +11,7 @@ function beskytHtml(vaerdi) {
 }
 
 function udgivelsesUrl(slug) {
-  return `/udgivelse.html?slug=${encodeURIComponent(slug)}`;
+  return `./udgivelse.html?slug=${encodeURIComponent(slug)}`;
 }
 
 // Forkorter den fulde bogbeskrivelse til en kort tekst på oversigtskortet.
