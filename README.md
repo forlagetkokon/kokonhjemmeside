@@ -13,6 +13,7 @@ Hvis du skal tilføje eller ændre en bog, kan du gøre det således:
 - `forside`: Skal bruges til bogens forside (husk alt-tekst og brug en sti som `./assets/images/udgivelser/min-nye-bog/min-nye-bog-front.webp`).
 - `galleri`: Ekstra billeder. Hvert billede skal have en sti med samme format og en alt-tekst.
 - `forfatter_beskrivelse`: Er valgfri og vises kun, når den har tekst.
+- `andet`: Ekstra bogoplysning, som vises som det sidste punkt under “Mere om bogen”.
 Bogfakta som ISBN og sidetal vises som “Afventer oplysninger”, når værdien mangler eller er `null`.
 
 ### Vigtigt når JSON-filen redigeres

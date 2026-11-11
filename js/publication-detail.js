@@ -48,6 +48,7 @@ function lavBogfakta(udgivelse) {
     ["Originaltitel", udgivelse.originaltitel],
     ["Oversætter", udgivelse.oversaetter],
     ["Omslag og materialer", udgivelse.format_og_materialer],
+    ["Andet", udgivelse.andet],
   ];
 
   const faktapunkter = fakta.map(([navn, vaerdi]) => `
